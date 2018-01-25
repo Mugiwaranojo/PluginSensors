@@ -1,0 +1,13 @@
+{
+	"sensors":[
+		{"name" : "temperature",
+		 "period": 60000,
+		 "script" : "temp_dht11.py"},
+		{"name" : "presence",
+		 "period": 1000,
+		 "script" : "pirmotion.py"},
+		{"name" : "photoresistance",
+		 "period": 60000,
+		 "script" : "photoresistor.py"}
+		 ]
+}
